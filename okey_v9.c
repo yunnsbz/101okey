@@ -7,28 +7,9 @@
 /*                                                                                                                */
 /*   project start date: 11.03.2022                                                                               */
 /*   last update date:   30.04.2022  17.40 tsi                                                                    */
-/*   project end date:   --.--.----                                                                               */
 /*                                                                                                                */
 /*   current version: 0.9.9.5.4 (beta)                                                                            */
 /*                                                                                                                */
-/*   last update:                                                                                                 */
-/*                                                                                                                */
-/*   - cezası ile beraber yeni kural eklendi (yandan alınan tas kullanılmak zorunda)                              */
-/*   - ek kullanılanlar hatası düzeltildi                                                                         */
-/*   - language update	%80                                                                                       */
-/*   - oyun bitiminde yeni el açılabiliyor                                                                        */
-/*   - oyun bittikten sonra ana menüye dönüp tekrar oyuna girince kazanan skoru hatası düzeltildi                 */
-/*   - tas isleme hatası düzeltildi                                                                               */
-/*   - skor kaydetme aktif                                                                                        */
-/*   - 2. eldeki skor hesaplama hatası düzeltildi                                                                 */
-/*                                                                                                                */
-/*   current bugs:                                                                                                */
-/*                                                                                                                */
-/*   - çift açan biri seri dizemediği halde dizebiliyormuş gibi yandan taş alabiliyor                             */
-/*   - yandan taş alamazken çift dizme aktif oluyor ve taş almış görünüyorsun                                     */
-/*   - seri diz hatalı çalışıyor                                                                                  */
-/*   - yan23 hata veriyor                                                                                         */
-/*   - sondaki sıfır normalden fazla artıyor                                                                      */
 /*                                                                                                                */
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #include <stdio.h>
@@ -5090,7 +5071,7 @@ int anamenu(){
 		printf("%c            [f]  ->  oyun modunu degistir (aktif degil)                                                %c\n",186,186);
 		printf("%c                                                                                                       %c\n",186,186);
 		printf("%c            [x]  ->  oyundan cikis                                                                     %c\n",186,186);
-	}
+	}  
 	else{
 		if (sifirlama_sayaci==0 ) ana_menu_dugme="SINGLE-PLAYER                                                     ";
 		else ana_menu_dugme="CONTINUE                                         RESET GAME <- [h]";
