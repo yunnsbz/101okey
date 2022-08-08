@@ -5,4 +5,4 @@ This game is a traditional turkish table game and i make basic version of it for
 
 You need to launch it in an external terminal 
 
-I wrote this code in my first year of computer science as my first ever programming project with c language so don't expect any professional coding
+I wrote this code in my first year of CSE as my first ever programming project with c language so don't expect any professional coding
