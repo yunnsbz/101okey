@@ -5,8 +5,8 @@
 /*                                                                                                                */
 /*   made by yunus bozkurtaca                                                                                     */
 /*                                                                                                                */
-/*   project start date: 11.03.2022                                                                               */
-/*   last update date:   30.04.2022  17.40 tsi                                                                    */
+/*   project start:  11.03.2022                                                                                   */
+/*   last update:    30.04.2022  17.40 tsi                                                                        */
 /*                                                                                                                */
 /*   current version: 0.9.9.5.4 (beta)                                                                            */
 /*                                                                                                                */
