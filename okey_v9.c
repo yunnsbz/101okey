@@ -5094,7 +5094,7 @@ int anamenu(){
 	else{
 		if (sifirlama_sayaci==0 ) ana_menu_dugme="SINGLE-PLAYER                                                     ";
 		else ana_menu_dugme="CONTINUE                                         RESET GAME <- [h]";
-		printf("%c            [w]  ->  MULTI-PLAYER (not available)                                                        %c\n",186,186);
+		printf("%c            [w]  ->  MULTI-PLAYER (not available)                                                      %c\n",186,186);
 		printf("%c                                                                                                       %c\n",186,186);
 		printf("%c            [a]  ->  %s                %c\n",186,ana_menu_dugme, 186);
 		printf("%c                                                                                                       %c\n",186,186);
