@@ -5056,7 +5056,7 @@ int anamenu(){
 
     system("cls");
 	ust_cerceve2;
-	bos_satir_cerceve(10);
+	bos_satir_cerceve(8);
 	if(lang_i==0){ 
 		if (sifirlama_sayaci==0 ) ana_menu_dugme="SINGLE-PLAYER                                                     ";
 		else ana_menu_dugme="DEVAM ET                                      OYUNU SIFIRLA <- [h]";
