@@ -1,7 +1,7 @@
 # 101okey
 A game that work on external Terminal
 
-This game is a traditional turkish table game and i make basic version of it for windows 
+This game is a traditional turkish table game and i made basic version of it for windows 
 
 You need to launch it in an external terminal 
 
